@@ -1,0 +1,5 @@
+.tsv data file:
+https://www.ctdatacollaborative.org/sites/g/files/tmzbdl2011/files/CTDC_synthetic_20210825.tsv
+
+CTDC URL where data file can be found:
+https://www.ctdatacollaborative.org/page/global-synthetic-dataset

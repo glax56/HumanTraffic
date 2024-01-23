@@ -1,0 +1,25 @@
+Clustering Read Me Documentation
+
+Opening in VS code will render the easiest usage for this application.
+
+When running this package place make sure to run pip at the base repo of the project folder:
+pip install -r clustering_requirements.txt
+
+From here all necessary packages to run the clustering model are set.
+
+Going forward, make sure the file path to the data within the 'Final Code/WorkingClusterModel.ipynb' is relative to the data folder for the .tsv file
+
+Finally to run the jupyter notebook from command line:
+	1. Navigate to the jupyter notebook: cd 'Final Code/WorkingClusterModel.ipynb'
+	2. Make sure the kernel is restarted and run all cells.
+	3. Shutdown Kernel = CTRL + C
+	4. Type 'y' and press Enter
+
+To fully use the application, navigate to http://127.0.0.1:8050/
+
+Cautions when using the application:
+	1. All columns use for X, Y, and Z must be present in the Columns for Clustering slicer
+	2. To scale the data, make sure to have the filter set to Yes
+	3. Render time takes a moment since it has to rerun the package each time new parameters are passed
+	4. To reset the model follow the above command line terms to reset the application
+	5. Upon startup, the application will take a minute to generate and will not be instantly available
